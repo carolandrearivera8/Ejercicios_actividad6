@@ -7,7 +7,6 @@ public class Main {
         adivinarNumero(1, 100, 5);
     }
 
-    
     public static void adivinarNumero(int min_numero, int max_numero, int max_intentos) {
        Scanner scanner = new Scanner(System.in);
         int numeroSecreto = (int) (Math.random() * (max_numero - min_numero + 1)) + min_numero;
